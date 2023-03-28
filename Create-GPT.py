@@ -1,10 +1,11 @@
+import time
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.chrome.options import Options
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
-
-
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 # Create a new ChromeOptions object
 options = Options()
@@ -27,26 +28,64 @@ options.page_load_strategy = 'eager'
 # Create a new Chrome webdriver with the options
 driver = webdriver.Chrome(options=options)
 
+# setup undetected chromedriver
 driver = uc.Chrome()
 
+# Going to signup / login page
+driver.get("https://chat.openai.com/")
 
 
-driver.get("https://chat.openai.com/") # Replace with the URL of the page you want to automate
 
+start_num = 0  # Initialize the starting number
 
 
 def Start():
-    input_tag = driver.find_element(By.TAG_NAME, 'input')
-     # Locate the input tag with the class "text-input text-input-lg text-input-full"
-
-    for i in range(1000000): # Loop through numbers 000000 to 999999
-        input_tag.clear() # Clear the input tag before entering a new value
-        input_tag.send_keys(f"{i:06d}") # Format the number with leading zeros and enter it into the input tag
-        time.sleep(1)
-        #input_tag.send_keys(Keys.ENTER) # Press the ENTER key to submit the form
-
-        if driver.page_source.find("correct value") != -1: # Check if the page contains the "correct value" message
-            print(f"Found correct value: {i:06d}")
-            break
-
-
+    # Locate the input tag with Tag NAme: Input
+    wait = WebDriverWait(driver, 10)
+    input_tag = wait.until(EC.element_to_be_clickable((By.TAG_NAME, 'input')))
+    while True:
+        for i in range(start_num, 1000000): # Loop through numbers starting from the previous number or 000000 to 999999
+            try:
+                # Try entering the number 3 times, with a pause of 0.4 seconds between each attempt
+                for j in range(3):
+                    try:
+                        try:
+                            input_tag.clear() # Clear the input tag before entering a new value
+                            input_tag.send_keys(f"{i:06d}") # Format the number with leading zeros and enter it into the input tag
+                            time.sleep(0.4) # pause the program for 0.4 seconds between every number
+                            break
+                        except:
+                            time.sleep(1) # is used to pause the program for 1 second in case an error occurs
+                    except:
+                        try:
+                            input_tag.clear() # Clear the input tag before entering a new value
+                            input_tag.send_keys(f"{i:06d}") # Format the number with leading zeros and enter it into the input tag
+                            time.sleep(0.4) #pause the program for 0.4 seconds between every number
+                            break
+                        except:
+                            time.sleep(1) # is used to pause the program for 1 second in case an error occurs.
+                else:
+                    # If all tries fail, print an error message, and i'm sorry to told you that but u maybe ave to restart the program :D
+                    print(f"Error: failed to enter value {i:06d}")
+            except:
+                # Try entering the number 3 times, with a pause of 0.4 seconds between each attempt
+                for j in range(3):
+                    try:
+                        try:
+                            input_tag.clear() # Clear the input tag before entering a new value
+                            input_tag.send_keys(f"{i:06d}") # Format the number with leading zeros and enter it into the input tag
+                            time.sleep(0.4) # pause the program for 0.4 seconds between every number
+                            break
+                        except:
+                            time.sleep(1) # is used to pause the program for 1 second in case an error occurs
+                    except:
+                        try:
+                            input_tag.clear() # Clear the input tag before entering a new value
+                            input_tag.send_keys(f"{i:06d}") # Format the number with leading zeros and enter it into the input tag
+                            time.sleep(0.4) #pause the program for 0.4 seconds between every number
+                            break
+                        except:
+                            time.sleep(1) # is used to pause the program for 1 second in case an error occurs.
+                else:
+                    # If all tries fail, print an error message, and i'm sorry to told you that but u maybe ave to restart the program :D
+                    print(f"Error: failed to enter value {i:06d}")
