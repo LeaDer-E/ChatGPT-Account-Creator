@@ -19,3 +19,8 @@
 - Run the following command to install the required packages:
 ```pip install selenium undetected-chromedriver```
 #### This will install the Selenium and  undetected-chromedriver packages, which are used by the script. Once the installation is complete, you can run the script.
+
+## Usage
+- Ensure that the dependencies are installed.
+- Set the starting number in the start_num variable, #Recomended to be 0 as is.
+- Run the script.
