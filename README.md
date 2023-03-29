@@ -31,3 +31,35 @@
 
 ## Disclaimer:
 #### This script is for educational purposes only. Use at your own risk. The script may violate the terms of service of the web page being automated, and may result in your IP address being blocked or other legal consequences. Please use responsibly.
+
+
+## Speed and Duration:
+* 430 Mail Takes 50 Min.
+* 1 Mail\7 Secounds
+
+
+## Tutorial
+### Vedio on youtube
+[![Watch the video](https://user-images.githubusercontent.com/99460904/179158938-e161db4b-c111-446a-ab21-0da683a6e8d2.png)](https://youtu.be/bXov3q9xgwI)
+
+
+## Known Issues
+Any issues are usually because the underlying browser automation framework has a
+bug or inconsistency. Where possible, we try to cover up these underlying
+problems in the client, but sometimes workarounds require higher-level
+intervention.
+try to restart the code or change the vedio link
+Please feel free to file an [issue][issue] if this client doesn't work as
+expected.
+
+[issue]: https://github.com/LeaDer-E/Outlook-Bulk-Mails-Sender/issues/new
+
+## Author's name.
+- [@Eslam Mustafa](https://www.linkedin.com/in/LeaDer-E/)
+
+## Cridit
+
+- Copyright © Eslam Mustafa 🌹
+
+
+♥ I hope you like my Simple Code, thank you ♥
