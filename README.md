@@ -36,8 +36,11 @@
 
 
 ## Speed and Duration:
-* 150 Numbers \ 1 Min.
-* 1 Mail\7 Secounds
+* Entry Speed: 125 ~ 150 Number per minute.
+* Numbers per hour: 7500 ~ 9000.
+* Numbers per day: 180,000 ~ 215,000.
+* It would take approximately 110 hours to enter 999,999 Numbers.
+* It would take approximately 4.5 days to enter 999,999 Numbers continuously for 24 hours.
 
 the expected completion time, it depends on various factors such as the speed of the computer running the code, the stability of the internet connection, and the responsiveness of the web page being interacted with. It's hard to provide an exact estimate.
 the code is looping through one million numbers and entering them into the input field with a delay of 0.4 seconds between each attempt, it could potentially take several hours to complete.
@@ -47,7 +50,7 @@ God was with you in your patience and waiting.
 Remember 🌹 I told you this is the last solution for you, but don't worry, it's a viable and effective solution with a success rate of 100%.
 
 
-
+The above statistics are based on the capabilities of my device and internet speed only. I don't know if the situation will be worse or not for you, but I think it won't improve because that's the maximum speed the program can work with on the ChatGPT website.
 
 
 ## Tutorial
