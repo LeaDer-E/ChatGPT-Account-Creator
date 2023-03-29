@@ -55,6 +55,8 @@ the code is looping through one million numbers and entering them into the input
 **To clarify, if you see a blue message in the shell, it means that the code failed to enter the verification box. However, I assure you that you will never have to face this problem. I simply wanted to inform you in case you do encounter it in the future. :)**
 ![image](https://user-images.githubusercontent.com/99460904/228455484-99681b6c-8c49-4eb0-8f44-7fda0eb4bd5f.png)
 
+## Demo GIF Soon
+Soon
 
 ## Tutorial:
 ### Vedio on youtube
