@@ -11,6 +11,7 @@
 [Quora]: https://www.quora.com/
 
 
+## Dependencies
 #### To install the dependencies required for this Python script, you can use pip, the Python package manager. Here are the steps:
 - Install the latest version of pip, if you haven't already done so.
 - Open a command prompt or terminal window.
