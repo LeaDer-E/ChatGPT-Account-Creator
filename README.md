@@ -22,5 +22,9 @@
 
 ## Usage
 - Ensure that the dependencies are installed.
-- Set the starting number in the start_num variable, #Recomended to be 0 as is.
+- Set the starting number in the `start_num` variable, #Recomended to be `0` as is.
 - Run the script.
+
+#### The script will automate the process of entering numbers starting from the specified `start_num` into an input field on the web page. The script will try to enter each number three times, with a pause of `0.4` seconds between each attempt. If all three attempts fail, Well Wait `1` Second, and try.
+
+#### Note that the script uses a headless Chrome browser to run the automation process, and disables image loading to improve performance. You can modify these settings in the `options` object if necessary. (not recomended)
