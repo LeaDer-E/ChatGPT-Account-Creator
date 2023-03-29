@@ -34,7 +34,6 @@
 ## Disclaimer:
 #### This script is for educational purposes only. Use at your own risk. The script may violate the terms of service of the web page being automated, and may result in your IP address being blocked or other legal consequences. Please use responsibly.
 
-
 ## Speed and Duration:
 * Entry Speed: 125 ~ 150 Number per minute.
 * Numbers per hour: 7500 ~ 9000.
@@ -50,7 +49,6 @@ God was with you in your patience and waiting.
 Remember 🌹 I told you this is the last solution for you, but don't worry, it's a viable and effective solution with a success rate of 100%.
 
 - The above statistics are based on the capabilities of my device and internet speed. I don't know if the situation will be worse or not for you, but I think it won't improve because that's the maximum speed the program can work with on the ChatGPT website.
-
 
 ## Tutorial
 ### Vedio on youtube
