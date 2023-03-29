@@ -52,7 +52,7 @@ try to restart the code or change the vedio link
 Please feel free to file an [issue][issue] if this client doesn't work as
 expected.
 
-[issue]: https://github.com/LeaDer-E/Outlook-Bulk-Mails-Sender/issues/new
+[issue]: https://github.com/LeaDer-E/OpenAI-Account-Bypass/issues/new
 
 ## Author's name.
 - [@Eslam Mustafa](https://www.linkedin.com/in/LeaDer-E/)
