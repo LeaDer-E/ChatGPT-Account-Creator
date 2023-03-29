@@ -31,4 +31,3 @@
 
 ## Disclaimer:
 #### This script is for educational purposes only. Use at your own risk. The script may violate the terms of service of the web page being automated, and may result in your IP address being blocked or other legal consequences. Please use responsibly.
-#### but we Are Good With VPN I Think :D
