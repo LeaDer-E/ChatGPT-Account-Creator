@@ -11,7 +11,7 @@
 [Quora]: https://www.quora.com/
 
 
-## Dependencies
+## Dependencies:
 #### To install the dependencies required for this Python script, you can use pip, the Python package manager. Here are the steps:
 - Install the latest version of pip, if you haven't already done so.
 - Open a command prompt or terminal window.
@@ -20,7 +20,7 @@
 ```pip install selenium undetected-chromedriver```
 #### This will install the Selenium and  undetected-chromedriver packages, which are used by the script. Once the installation is complete, you can run the script.
 
-## Usage
+## Usage:
 - Ensure that the dependencies are installed.
 - Set the starting number in the `start_num` variable, #Recomended to be `0` as is.
 - Run the script.
@@ -29,6 +29,6 @@
 
 #### Note that the script uses a headless Chrome browser to run the automation process, and disables image loading to improve performance. You can modify these settings in the `options` object if necessary. (not recomended)
 
-## Disclaimer
+## Disclaimer:
 #### This script is for educational purposes only. Use at your own risk. The script may violate the terms of service of the web page being automated, and may result in your IP address being blocked or other legal consequences. Please use responsibly.
 #### but we Are Good With VPN I Think :D
