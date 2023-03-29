@@ -28,3 +28,7 @@
 #### The script will automate the process of entering numbers starting from the specified `start_num` into an input field on the web page. The script will try to enter each number three times, with a pause of `0.4` seconds between each attempt. If all three attempts fail, Well Wait `1` Second, and try.
 
 #### Note that the script uses a headless Chrome browser to run the automation process, and disables image loading to improve performance. You can modify these settings in the `options` object if necessary. (not recomended)
+
+## Disclaimer
+#### This script is for educational purposes only. Use at your own risk. The script may violate the terms of service of the web page being automated, and may result in your IP address being blocked or other legal consequences. Please use responsibly.
+#### but we Are Good With VPN I Think :D
