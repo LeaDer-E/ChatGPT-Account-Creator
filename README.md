@@ -40,7 +40,7 @@
 
 ## Tutorial
 ### Vedio on youtube
-[![Watch the video](https://user-images.githubusercontent.com/99460904/179158938-e161db4b-c111-446a-ab21-0da683a6e8d2.png)](https://youtu.be/bXov3q9xgwI)
+[![Watch the video](https://user-images.githubusercontent.com/99460904/179158938-e161db4b-c111-446a-ab21-0da683a6e8d2.png)](https://youtu.be/WcEYFTFVaNY)
 
 
 ## Known Issues
