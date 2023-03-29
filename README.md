@@ -49,8 +49,7 @@ If you're lucky, it will be finished in less than ten hours. If not, it might ta
 God was with you in your patience and waiting.
 Remember 🌹 I told you this is the last solution for you, but don't worry, it's a viable and effective solution with a success rate of 100%.
 
-
-The above statistics are based on the capabilities of my device and internet speed only. I don't know if the situation will be worse or not for you, but I think it won't improve because that's the maximum speed the program can work with on the ChatGPT website.
+- The above statistics are based on the capabilities of my device and internet speed. I don't know if the situation will be worse or not for you, but I think it won't improve because that's the maximum speed the program can work with on the ChatGPT website.
 
 
 ## Tutorial
